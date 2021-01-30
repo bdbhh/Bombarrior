@@ -1,8 +1,9 @@
 #!/usr/bin/python
-#Bombarrior
+#BomMail
 
 ############################
-# Facebook: https://web.facebook.com/Bangladesh-Cyber-Warrior-105938431399125/
+# Facebook: https://fb.me/Kalipentesting
+# Twitter : @Kalipentesting
 ############################
 
 import os
