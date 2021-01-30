@@ -10,16 +10,10 @@ import smtplib
 import getpass
 import sys
 import time
-import pyfiglet
-#from colorama import init, Style, Back, Fore
+#from ANSI SHADOW import init, Style, Back, Fore
 
-init(convert=True)
+print """
 
-def display_banner():
-    os.system("clear || cls")
-    
-    sys.stdout.write(Fore.GREEN + """
-    
 
 ██████╗  ██████╗ ███╗   ███╗██████╗  █████╗ ██████╗ ██████╗ ██╗ ██████╗ ██████╗ 
 ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗██╔══██╗
@@ -28,12 +22,8 @@ def display_banner():
 ██████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝██║  ██║██║  ██║██║  ██║██║╚██████╔╝██║  ██║
 ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝
                                                                                 
-
-
-    """)
-    print(Fore.CYAN+ '')
-
-display_banner()
+   
+"""
 def BomEmail():
     if os.name == 'nt':
         os.system('cls')
