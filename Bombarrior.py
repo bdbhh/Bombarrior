@@ -1,8 +1,9 @@
-##!/usr/bin/python
+#!/usr/bin/python
 #Bombarrior
 
 ############################
-# Facebook: https://web.facebook.com/Bangladesh-Cyber-Warrior-105938431399125
+# Facebook: https://fb.me/Kalipentesting
+# Twitter : @Kalipentesting
 ############################
 
 import os
@@ -10,21 +11,20 @@ import smtplib
 import getpass
 import sys
 import time
-#from ANSI SHADOW import init, Style, Back, Fore
+class color:
+   Green = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
 
-print """
-
-
-██████╗  ██████╗ ███╗   ███╗██████╗  █████╗ ██████╗ ██████╗ ██╗ ██████╗ ██████╗ 
-██╔══██╗██╔═══██╗████╗ ████║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗██╔══██╗
-██████╔╝██║   ██║██╔████╔██║██████╔╝███████║██████╔╝██████╔╝██║██║   ██║██████╔╝
-██╔══██╗██║   ██║██║╚██╔╝██║██╔══██╗██╔══██║██╔══██╗██╔══██╗██║██║   ██║██╔══██╗
-██████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝██║  ██║██║  ██║██║  ██║██║╚██████╔╝██║  ██║
-╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝
-                                                                                
-   
-"""
-def BomEmail():
+print(color.BOLD + 'Bombarrior' + color.END)
+def Bombarrior():
     if os.name == 'nt':
         os.system('cls')
     else:
