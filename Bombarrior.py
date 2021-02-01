@@ -2,7 +2,7 @@
 #Bombarrior
 
 ############################
-# Facebook: https://web.facebook.com/groups/301136007520101/
+
 ############################
 
 import os
@@ -67,7 +67,7 @@ try:
         sys.stdout.flush()
     server.quit()
     print '\n Done  !!!'
-    print '                                                  Bombarrior :~ Enjoy :)'
+    print '                                                  Bombarrior :~ Enjoy :) # Facebook: https://web.facebook.com/groups/301136007520101/'
 except KeyboardInterrupt:
     print '[-] Canceled'
     sys.exit()
